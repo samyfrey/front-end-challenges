@@ -1,11 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+:root {
+  --white: hsl(0, 0%, 98%);
+  --gray: hsl(0, 0%, 41%);
+  --black: hsl(0, 0%, 8%)
+}
+
+
+body{
+    font-family: Epilogue;
+    color: var(--black)
+}
+h1{
+    font-weight: 700;
+}
 .app-screen{
     margin: auto;
+    width: 1000px;
     
 }
 
 @media only screen and (min-width: 600px) {
   body {
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
   .landing-image>img {
     height: 60vh;
