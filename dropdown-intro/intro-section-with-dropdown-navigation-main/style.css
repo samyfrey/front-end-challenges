@@ -1,0 +1,62 @@
+.app-screen{
+    margin: auto;
+    
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .landing-image>img {
+    height: 60vh;
+  }
+}
+
+.topbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    flex: 2;
+    border: solid black 1px;
+    justify-content: space-between;
+}
+
+.userbar{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.landing-screen{
+    display: flex;
+    height: 80vh;
+    margin: 50px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.landing-intro{
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+.landing-intro>button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    margin: 15px 0px 0px 
+}
+.landing-image{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.landing-image>img {
+
+    min-height: 90px;
+
+    }
